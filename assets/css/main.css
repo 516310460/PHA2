@@ -1928,3 +1928,10 @@ button:focus,
 .shadow-diy {
     box-shadow: 1px 2px 4px 4px rgba(0, 0, 0, 0.07), 1px 1px 6px 4px rgba(0, 0, 0, 0.02);
 }
+
+
+.el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
+  border-bottom-color: #FFFFFF;
+  background: #388682;
+  color: #ffffff;
+}
