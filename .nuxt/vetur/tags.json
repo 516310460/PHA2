@@ -65,9 +65,6 @@
   "HashRateXbitTrend": {
     "description": "Auto imported from components/HashRate/xbitTrend.vue"
   },
-  "InProgress": {
-    "description": "Auto imported from components/InProgress/index.vue"
-  },
   "TVpublicDealHeader": {
     "description": "Auto imported from components/TVpublic/deal-header.vue"
   },
@@ -112,6 +109,9 @@
   },
   "SelectSearchText": {
     "description": "Auto imported from components/selectSearch/text.vue"
+  },
+  "InProgress": {
+    "description": "Auto imported from components/InProgress/index.vue"
   },
   "HashRateDatafeedsDataUpdater": {
     "description": "Auto imported from components/HashRate/datafeeds/dataUpdater.js"
