@@ -464,6 +464,7 @@ import { mapState, mapMutations } from 'vuex'
 export default {
   data () {
     return {
+      activeName: "PHA",
       visible: false,
       dialogFormVisible: false,
       dialogFormVisible2: false,

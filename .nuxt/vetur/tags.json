@@ -89,14 +89,14 @@
   "TVpublicTradeDealHeader": {
     "description": "Auto imported from components/TVpublic/trade-deal-header.vue"
   },
-  "BuycoinsHeader": {
-    "description": "Auto imported from components/buycoins/Header.vue"
-  },
   "DialogNicknameDialog": {
     "description": "Auto imported from components/dialog/NicknameDialog.vue"
   },
   "DialogTipsDialog": {
     "description": "Auto imported from components/dialog/TipsDialog.vue"
+  },
+  "BuycoinsHeader": {
+    "description": "Auto imported from components/buycoins/Header.vue"
   },
   "KlineMain": {
     "description": "Auto imported from components/kline/main.vue"

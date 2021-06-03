@@ -30,9 +30,9 @@ export { default as TVpublicNumber } from '../../components/TVpublic/number.vue'
 export { default as TVpublicPageLoading } from '../../components/TVpublic/page-loading.vue'
 export { default as TVpublicSlider } from '../../components/TVpublic/slider.vue'
 export { default as TVpublicTradeDealHeader } from '../../components/TVpublic/trade-deal-header.vue'
-export { default as BuycoinsHeader } from '../../components/buycoins/Header.vue'
 export { default as DialogNicknameDialog } from '../../components/dialog/NicknameDialog.vue'
 export { default as DialogTipsDialog } from '../../components/dialog/TipsDialog.vue'
+export { default as BuycoinsHeader } from '../../components/buycoins/Header.vue'
 export { default as KlineMain } from '../../components/kline/main.vue'
 export { default as SelectSearchPhoneSearch } from '../../components/selectSearch/PhoneSearch.vue'
 export { default as SelectSearchPopper } from '../../components/selectSearch/Popper.vue'
@@ -101,9 +101,9 @@ export const LazyTVpublicNumber = import('../../components/TVpublic/number.vue' 
 export const LazyTVpublicPageLoading = import('../../components/TVpublic/page-loading.vue' /* webpackChunkName: "components/t-vpublic-page-loading" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicSlider = import('../../components/TVpublic/slider.vue' /* webpackChunkName: "components/t-vpublic-slider" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicTradeDealHeader = import('../../components/TVpublic/trade-deal-header.vue' /* webpackChunkName: "components/t-vpublic-trade-deal-header" */).then(c => wrapFunctional(c.default || c))
-export const LazyBuycoinsHeader = import('../../components/buycoins/Header.vue' /* webpackChunkName: "components/buycoins-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyDialogNicknameDialog = import('../../components/dialog/NicknameDialog.vue' /* webpackChunkName: "components/dialog-nickname-dialog" */).then(c => wrapFunctional(c.default || c))
 export const LazyDialogTipsDialog = import('../../components/dialog/TipsDialog.vue' /* webpackChunkName: "components/dialog-tips-dialog" */).then(c => wrapFunctional(c.default || c))
+export const LazyBuycoinsHeader = import('../../components/buycoins/Header.vue' /* webpackChunkName: "components/buycoins-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyKlineMain = import('../../components/kline/main.vue' /* webpackChunkName: "components/kline-main" */).then(c => wrapFunctional(c.default || c))
 export const LazySelectSearchPhoneSearch = import('../../components/selectSearch/PhoneSearch.vue' /* webpackChunkName: "components/select-search-phone-search" */).then(c => wrapFunctional(c.default || c))
 export const LazySelectSearchPopper = import('../../components/selectSearch/Popper.vue' /* webpackChunkName: "components/select-search-popper" */).then(c => wrapFunctional(c.default || c))
