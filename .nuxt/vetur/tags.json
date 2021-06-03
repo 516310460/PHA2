@@ -1,0 +1,212 @@
+{
+  "Example05Mirrored": {
+    "description": "Auto imported from components/Example05Mirrored.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "NDropdowns": {
+    "description": "Auto imported from components/NDropdowns.vue"
+  },
+  "NavMenu": {
+    "description": "Auto imported from components/NavMenu.vue"
+  },
+  "NetWorkError": {
+    "description": "Auto imported from components/NetWorkError.vue"
+  },
+  "Notice": {
+    "description": "Auto imported from components/Notice.vue"
+  },
+  "SlideVerify": {
+    "description": "Auto imported from components/SlideVerify.vue"
+  },
+  "HashRateDepthChart": {
+    "description": "Auto imported from components/HashRate/depth-chart.vue"
+  },
+  "HashRateDetailsList": {
+    "description": "Auto imported from components/HashRate/details-list.vue"
+  },
+  "HashRateEntrust": {
+    "description": "Auto imported from components/HashRate/entrust.vue"
+  },
+  "HashRateKnockdown": {
+    "description": "Auto imported from components/HashRate/knockdown.vue"
+  },
+  "HashRateLimit": {
+    "description": "Auto imported from components/HashRate/limit.vue"
+  },
+  "HashRateMarket": {
+    "description": "Auto imported from components/HashRate/market.vue"
+  },
+  "HashRateOrderListAssetFull": {
+    "description": "Auto imported from components/HashRate/order-list-asset-full.vue"
+  },
+  "HashRateOrderListEntrustFullHistory": {
+    "description": "Auto imported from components/HashRate/order-list-entrust-full-history.vue"
+  },
+  "HashRateOrderListEntrustFull": {
+    "description": "Auto imported from components/HashRate/order-list-entrust-full.vue"
+  },
+  "HashRateOrderListFull": {
+    "description": "Auto imported from components/HashRate/order-list-full.vue"
+  },
+  "HashRateOrderListTransactionFull": {
+    "description": "Auto imported from components/HashRate/order-list-transaction-full.vue"
+  },
+  "HashRateStop": {
+    "description": "Auto imported from components/HashRate/stop.vue"
+  },
+  "HashRateTradeView": {
+    "description": "Auto imported from components/HashRate/tradeView.vue"
+  },
+  "HashRateXbitTrend": {
+    "description": "Auto imported from components/HashRate/xbitTrend.vue"
+  },
+  "InProgress": {
+    "description": "Auto imported from components/InProgress/index.vue"
+  },
+  "TVpublicDealHeader": {
+    "description": "Auto imported from components/TVpublic/deal-header.vue"
+  },
+  "TVpublicHashRateDealHeader": {
+    "description": "Auto imported from components/TVpublic/hashRate-deal-header.vue"
+  },
+  "TVpublicLoading": {
+    "description": "Auto imported from components/TVpublic/loading.vue"
+  },
+  "TVpublicNumber": {
+    "description": "Auto imported from components/TVpublic/number.vue"
+  },
+  "TVpublicPageLoading": {
+    "description": "Auto imported from components/TVpublic/page-loading.vue"
+  },
+  "TVpublicSlider": {
+    "description": "Auto imported from components/TVpublic/slider.vue"
+  },
+  "TVpublicTradeDealHeader": {
+    "description": "Auto imported from components/TVpublic/trade-deal-header.vue"
+  },
+  "BuycoinsHeader": {
+    "description": "Auto imported from components/buycoins/Header.vue"
+  },
+  "DialogNicknameDialog": {
+    "description": "Auto imported from components/dialog/NicknameDialog.vue"
+  },
+  "DialogTipsDialog": {
+    "description": "Auto imported from components/dialog/TipsDialog.vue"
+  },
+  "KlineMain": {
+    "description": "Auto imported from components/kline/main.vue"
+  },
+  "SelectSearchPhoneSearch": {
+    "description": "Auto imported from components/selectSearch/PhoneSearch.vue"
+  },
+  "SelectSearchPopper": {
+    "description": "Auto imported from components/selectSearch/Popper.vue"
+  },
+  "SelectSearch": {
+    "description": "Auto imported from components/selectSearch/SelectSearch.vue"
+  },
+  "SelectSearchText": {
+    "description": "Auto imported from components/selectSearch/text.vue"
+  },
+  "HashRateDatafeedsDataUpdater": {
+    "description": "Auto imported from components/HashRate/datafeeds/dataUpdater.js"
+  },
+  "HashRateDatafeedsDatafees": {
+    "description": "Auto imported from components/HashRate/datafeeds/datafees.js"
+  },
+  "HashRateDatafeedsSocket": {
+    "description": "Auto imported from components/HashRate/datafeeds/socket.js"
+  },
+  "HashRateJsChartBase": {
+    "description": "Auto imported from components/HashRate/js/chart-base.js"
+  },
+  "HashRateJsChartFeed": {
+    "description": "Auto imported from components/HashRate/js/chart-feed.js"
+  },
+  "HashRateJsChartProvider": {
+    "description": "Auto imported from components/HashRate/js/chart-provider.js"
+  },
+  "HashRateJsChartStream": {
+    "description": "Auto imported from components/HashRate/js/chart-stream.js"
+  },
+  "HashRateJsIndicators": {
+    "description": "Auto imported from components/HashRate/js/indicators.js"
+  },
+  "HashRateJsUtils": {
+    "description": "Auto imported from components/HashRate/js/utils.js"
+  },
+  "KlineJsAreas": {
+    "description": "Auto imported from components/kline/js/areas.js"
+  },
+  "KlineJsChart": {
+    "description": "Auto imported from components/kline/js/chart.js"
+  },
+  "KlineJsChartManager": {
+    "description": "Auto imported from components/kline/js/chart_manager.js"
+  },
+  "KlineJsChartSettings": {
+    "description": "Auto imported from components/kline/js/chart_settings.js"
+  },
+  "KlineJsCname": {
+    "description": "Auto imported from components/kline/js/cname.js"
+  },
+  "KlineJsControl": {
+    "description": "Auto imported from components/kline/js/control.js"
+  },
+  "KlineJsCpoint": {
+    "description": "Auto imported from components/kline/js/cpoint.js"
+  },
+  "KlineJsCtoolManager": {
+    "description": "Auto imported from components/kline/js/ctool_manager.js"
+  },
+  "KlineJsCtools": {
+    "description": "Auto imported from components/kline/js/ctools.js"
+  },
+  "KlineJsDataProviders": {
+    "description": "Auto imported from components/kline/js/data_providers.js"
+  },
+  "KlineJsDataSources": {
+    "description": "Auto imported from components/kline/js/data_sources.js"
+  },
+  "KlineJsExprs": {
+    "description": "Auto imported from components/kline/js/exprs.js"
+  },
+  "KlineJsIndicators": {
+    "description": "Auto imported from components/kline/js/indicators.js"
+  },
+  "Kline": {
+    "description": "Auto imported from components/kline/js/kline.js"
+  },
+  "KlineJsLayouts": {
+    "description": "Auto imported from components/kline/js/layouts.js"
+  },
+  "KlineJsMevent": {
+    "description": "Auto imported from components/kline/js/mevent.js"
+  },
+  "KlineJsNamedObject": {
+    "description": "Auto imported from components/kline/js/named_object.js"
+  },
+  "KlineJsPlotters": {
+    "description": "Auto imported from components/kline/js/plotters.js"
+  },
+  "KlineJsRanges": {
+    "description": "Auto imported from components/kline/js/ranges.js"
+  },
+  "KlineJsTemplates": {
+    "description": "Auto imported from components/kline/js/templates.js"
+  },
+  "KlineJsThemes": {
+    "description": "Auto imported from components/kline/js/themes.js"
+  },
+  "KlineJsTimeline": {
+    "description": "Auto imported from components/kline/js/timeline.js"
+  },
+  "KlineJsUtil": {
+    "description": "Auto imported from components/kline/js/util.js"
+  }
+}

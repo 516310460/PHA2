@@ -1,0 +1,121 @@
+.drawingToolbar-2CoOuCv8-{
+  background: #1E222A !important;
+}
+.chart-page .chart-container {
+  border: 0;
+  background: #1E222A;
+}
+
+.day.chart-page,
+.day [class^='drawingToolbar'] {
+  background: #ffffff !important;
+}
+
+body.night,
+.night [class^='drawingToolbar'],
+.night #footer-chart-panel,
+.night .chart-controls-bar,
+.night .chart-page,
+.night .chart-markup-table {
+  background: #151b35 !important;
+}
+
+.chart-page .chart-controls-bar {
+  background-color: #151b35;
+}
+
+.day.chart-page .chart-controls-bar {
+  background-color: #ffffff !important;
+  /* display: none; */
+}
+
+.chart-page .chart-controls-bar-buttons.date-range-wrapper {
+  display: none !important;
+}
+
+.chart-page .chart-controls-bar-buttons a {
+  color: #8790A1;
+  fill: #8790A1;
+  stroke: #8790A1;
+}
+
+.chart-page .chart-controls-bar-buttons.chart-series-controls a:not(.disabled):hover {
+  color: #6f8ff1;
+  fill: #6f8ff1;
+  stroke: #6f8ff1;
+  background-color: #292E39;
+}
+
+.day.chart-page .chart-controls-bar-buttons.chart-series-controls a:not(.disabled):hover {
+  background-color: #F1F5FA;
+}
+
+.chart-page .chart-controls-bar-buttons a.active,
+.feature-no-touch .chart-controls-bar-buttons a.active:hover {
+  color: #6f8ff1 !important;
+  fill: #6f8ff1 !important;
+  stroke: #6f8ff1 !important;
+}
+
+.chart-page .chart-controls-bar-buttons a:before {
+  border-color: #3c3a58;
+}
+
+.day.chart-page .chart-controls-bar-buttons a:before {
+  border-color: #E6EBF1;
+}
+
+/* 修改新样式 */
+/* .pane-legend-minbtn.apply-common-tooltip.apply,
+.pane-legend-line.apply-overflow-tooltip.main,
+.pane-legend-icon-container,
+.context-menu-wrapper.topmenu,
+.control-bar-wrapper,
+.pane-legend-line.pane-legend-wrap.study,
+._tv-dialog._tv-dialog-nonmodal.ui-draggable{
+  display: none !important;
+} */
+
+.chart-container.active {
+  left: 0 !important;
+  top: 0 !important;
+  width: 100vw !important;
+  height: 100vw !important;
+}
+
+.chart-container.active .chart-widget.i-compact {
+  width: 100vw !important;
+  height: 100vw !important;
+}
+
+.chart-container.active .chart-widget.i-compact>.chart-markup-table {
+  width: 100vw !important;
+  height: 100vw !important;
+}
+
+.chart-container.active .chart-widget.i-compact>.chart-markup-table>tbody>tr>.chart-markup-table.pane>div>canvas,
+.chart-container.active .chart-widget.i-compact>.chart-markup-table>tbody>tr>.chart-markup-table.price-axis>div>canvas,
+.chart-markup-table.time-axis>div>canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+._tv-dialog._tv-dialog-nonmodal.ui-draggable {
+  display: none !important;
+}
+
+table.chart-markup-table {
+  background: #1E222A;
+}
+
+.js-title-text.tv-dialog__title.tv-insert-indicator-dialog__title-text,
+.tv-dialog.js-dialog.tv-insert-indicator-dialog.i-minimized.tv-dialog--popup.i-focused.ui-draggable,
+.tv-search-row.tv-insert-indicator-dialog__search-control>input {
+  color: #dbe4fe;
+  background-color: #232C48 !important;
+}
+
+.tv-search-row__input-reset.js-reset-button>svg>path,
+.tv-dialog__close.js-dialog__close>svg>path {
+  fill: #dbe4fe;
+}

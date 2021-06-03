@@ -1,0 +1,237 @@
+$co08: #aa5369;
+$co09: #09b67d;
+$co10: #b8babb;
+$co13: #47545c;
+$co17: #6d7480;
+$co19: #f7f7f7;
+$co20: #eeeeee;
+$co21: #f2f2f2;
+$co23: #5c5c5c;
+$co24: #858585;
+$co25: #adadad;
+$co26: #d6d6d6;
+$co29: #ffffff;
+$co34: #a3acbd;
+$co48: #5198D6;
+$co52: #333333;
+$co62: #0b1821;
+$co72: #ededed;
+$co75: #959595;
+$co77: #cd332d;
+$co88: #02AD8F;
+$co110: #4ADB62;
+$co112: #131722;
+$co113: #02AD8F;
+$co114: #222e3e;
+$co115: #F1F5FA;
+$co117: #08050C;
+$co121: #13181a;
+$co122: #162229;
+$co123: #c1d3df;
+$co124: #7a94a3;
+$co125: #707d8f;
+$co126: #2b3b44;
+$co127: #08B67E;
+$co128: #D5742C;
+
+/* 币币交易新加样式 */
+
+$cl_999: #999999;
+$cl_333: #333333;
+$cl_fff: #ffffff;
+$cl_f0e: #F0EFF7;
+$cl_666: #666666;
+$cl_858_2: RGBA(133, 131, 172, 0.2);
+$cl_bbb: #bbbbbb;
+$cl_cd4: #CD4559;
+$cl_ddd: #dddddd;
+$cl_858: #8583AC;
+$cl_c5c: #C5C3DD;
+
+/**/
+
+$cl_global: #13161C;
+$cl_content: #1E222A;
+$cl_buy: #03BF7B;
+$cl_sell: rgb(235, 77, 92);
+$cl_link: #02AD8F;
+$cl_8790A1: #8790A1;
+$cl_292E39: #292E39;
+$cl_5E6573: #5E6573;
+$cl_CED3DD: #CED3DD;
+$cl_282D37: #282D37;
+$lf: left;
+$ct: center;
+$rt: right;
+// 背景颜色
+.bk09 {
+    background-color: $co09;
+}
+
+.bk10 {
+    background: $co10 !important;
+    background-color: $co10 !important;
+}
+
+.bk19 {
+    background-color: $co19;
+}
+
+.bk29 {
+    background-color: $co29;
+}
+
+.bk34 {
+    background-color: $co34;
+}
+
+.bk52 {
+    background-color: $co52;
+}
+
+.bk62 {
+    background-color: $co62;
+}
+
+.bk88 {
+    background-color: $co88;
+}
+
+.bk112 {
+    background-color: $co112;
+}
+
+.bk113 {
+    background-color: $co113;
+}
+
+.bk114 {
+    background-color: $co114;
+}
+
+.bk117 {
+    background-color: $co117;
+}
+
+.bk121 {
+    background-color: $co121;
+}
+
+.bk122 {
+    background-color: $co122;
+}
+
+// 字体颜色
+.cl08 {
+    color: $co08;
+}
+
+.cl09 {
+    color: $co09;
+}
+
+.cl23 {
+    color: $co23;
+}
+
+.cl24 {
+    color: $co24;
+}
+
+.cl25 {
+    color: $co25;
+}
+
+.cl29 {
+    color: $co29;
+}
+
+.cl52 {
+    color: $co52;
+}
+
+.cl75 {
+    color: $co75;
+}
+
+.cl77 {
+    color: $co77;
+}
+
+.cl88 {
+    color: $co88;
+}
+
+.cl110 {
+    color: $co110;
+}
+
+.cl113 {
+    color: $co113;
+}
+
+.cl123 {
+    color: $co123;
+}
+
+.cl125 {
+    color: $co125;
+}
+
+.cl127 {
+    color: $co127;
+}
+
+.cl128 {
+    color: $co128;
+}
+
+.cl_buy {
+    color: $cl_buy;
+}
+
+.cl_sell {
+    color: $cl_sell;
+}
+
+// 边框颜色
+.br-cl09 {
+    border: 1px solid $co09;
+}
+
+.br-cl13 {
+    border: 1px solid $co13;
+}
+
+.br-cl72 {
+    border: 1px solid $co72;
+}
+
+// 文字样式
+.tl {
+    text-align: $lf;
+}
+
+.tc {
+    text-align: $ct;
+}
+
+.tr {
+    text-align: $rt;
+}
+
+// 浮动
+.fl {
+    float: $lf;
+}
+
+.fr {
+    float: $rt;
+}
+
+
+/*** Hover ***/
+.hover-cl09:hover {
+    cursor: pointer;
+    color: $co09;
+}

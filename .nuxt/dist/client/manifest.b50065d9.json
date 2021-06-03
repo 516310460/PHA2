@@ -1,0 +1,11 @@
+{
+  "name": "coin pool",
+  "short_name": "coin pool",
+  "description": "coin pool",
+  "icons": [],
+  "start_url": "/zh-CN",
+  "display": "standalone",
+  "background_color": "#2baf88",
+  "theme_color": "#2baf88",
+  "lang": "zh"
+}

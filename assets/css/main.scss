@@ -1,0 +1,592 @@
+/* 改变主题色变量 */
+
+$--color-primary: #02AD8F;
+
+/* 改变 icon 字体路径变量，必需 */
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";
+#installPWA {
+    @apply hidden;
+}
+
+$co25: #adadad;
+$coecf9f1: #ecf9f1;
+$co02AD8F: #02AD8F;
+$coE6F4F2:#E6F4F2;
+$coCB374E: #CB374E;
+$coF24845:#F24845;
+$coFFEEEE:#FFEEEE;
+$co0F182D: #0F182D;
+$coE7EEFF: #E7EEFF;
+$co0A1121: #0A1121;
+$co9FA9C0: #9FA9C0;
+$co232F49: #232F49;
+$coffffff: #ffffff;
+$co222E4B: #388682;
+$co101a30: #101a30;
+$cof8f8f8: #f8f8f8;
+$co454545: #454545;
+$co121D36: #121D36;
+$co838383: #838383;
+$co7B7B7B:#7B7B7B;
+$coF4F4F4:#F4F4F4;
+$coF6F6F6:#F6F6F6;
+$coF8F8F8:#F8F8F8;
+$co2E2E2E:#2E2E2E;
+$coFCA614:#FCA614;
+$cofbba30:#fbba30;
+$cofddc97:#fddc97;
+$co404553:#404553;
+$co6A6A6A:#6A6A6A;
+$coFBFBFB:#FBFBFB;
+$coBAC8E8:#BAC8E8;
+$co464646:#464646;
+$co606266:#606266;
+$c09C9C9C:#9C9C9C;
+$c05C5C5C:#5C5C5C;
+$c0D3D3D3:#D3D3D3;
+$coF0F0F0:#F0F0F0;
+$co101728:#101728;
+$co5E6573:#5E6573;
+$coEBEBEB:#EBEBEB;
+$co0f1932:#0f1932;
+.clE7EEFF {
+    color: $coE7EEFF;
+}
+
+.clEBEBEB {
+    color: $coEBEBEB;
+}
+
+.cl5C5C5C {
+    color: $c05C5C5C;
+}
+
+.clD3D3D3 {
+    color: $c0D3D3D3;
+}
+
+.cl9C9C9C {
+    color: $c09C9C9C;
+}
+
+.cl464646 {
+    color: $co464646;
+}
+
+.cl6A6A6A {
+    color: $co6A6A6A;
+}
+
+.cl606266 {
+    color: $co606266;
+}
+
+.cl2E2E2E {
+    color: $co2E2E2E;
+}
+
+.clBAC8E8 {
+    color: $coBAC8E8;
+}
+
+.clF4F4F4 {
+    color: $coF4F4F4;
+}
+
+.cl7B7B7B {
+    color: $co7B7B7B
+}
+
+.cl838383 {
+    color: $co838383;
+}
+
+.clF24845 {
+    color: $coF24845;
+}
+
+.cl02AD8F {
+    color: $co02AD8F;
+}
+
+.clFCA614 {
+    color: $coFCA614;
+}
+
+.clE6F4F2 {
+    color: $coE6F4F2;
+}
+
+.clCB374E {
+    color: $coCB374E;
+}
+
+.cl9FA9C0 {
+    color: $co9FA9C0;
+}
+
+.cl454545 {
+    color: $co454545;
+}
+
+.cl5E6573 {
+    color: $co5E6573;
+}
+
+.clfddc97 {
+    color: $cofddc97;
+}
+
+.clfbba30 {
+    color: $cofbba30;
+}
+
+.bkF24845 {
+    background: $coF24845;
+}
+
+.bk0F182D {
+    background: $co0F182D;
+}
+
+.bkF6F6F6 {
+    background: $coF6F6F6;
+}
+
+.bkFCA614 {
+    background: $coFCA614;
+}
+
+.bkF8F8F8 {
+    background: $coF8F8F8;
+}
+
+.bk404553 {
+    background: $co404553;
+}
+
+.bk02AD8F {
+    background: $co02AD8F!important;
+}
+
+.bkecf9f1{
+  background: $coecf9f1;
+}
+
+.bkE6F4F2 {
+    background: $coE6F4F2;
+}
+
+.bk0A1121 {
+    background: $co0A1121;
+}
+
+.bkFFEEEE {
+    background: $coFFEEEE;
+}
+
+.bkF4F4F4 {
+    background: $coF4F4F4;
+}
+
+.bkF0F0F0 {
+    background: $coF0F0F0;
+}
+
+.bk0f1932 {
+    background: $co0f1932;
+}
+
+.bkFBFBFB {
+    background: $coFBFBFB;
+}
+
+.bk232F49 {
+    background: $co232F49;
+}
+
+.bkffffff {
+    background: $coffffff;
+}
+
+.bk222E4B {
+    background: $co222E4B;
+}
+
+.bk101a30 {
+    background: $co101a30;
+}
+
+.bkf8f8f8 {
+    background: $cof8f8f8;
+}
+
+.bk101728 {
+    background: $co101728;
+}
+
+.hover-cl02AD8F:hover {
+    color: $co02AD8F;
+    cursor: pointer;
+    i {
+        color: $co02AD8F;
+    }
+}
+
+.bc-02AD8F {
+    border-color: $co02AD8F;
+}
+
+.bc-F24845 {
+    border-color: $coF24845;
+}
+
+.bc-co9FA9C0 {
+    border-color: $co9FA9C0;
+}
+
+.bc-co0A1121 {
+    border-color: $co0A1121;
+}
+
+.bc-co121D36 {
+    border-color: $co121D36;
+}
+
+$co666666: #666666;
+$coC0C0C0: #C0C0C0;
+$co347CEF: #347CEF;
+$coF5F5F5: #F5F5F5;
+$coF7FAFF: #F7FAFF;
+$co95BBF7: #95BBF7;
+$coE6EFFF: #E6EFFF;
+$co3C3C3C: #3C3C3C;
+$coFF2222: #FF2222;
+$co71eeb7: #71eeb7;
+$coc6d8fc: #c6d8fc;
+$coFFDD22: #FFDD22;
+$coC2D9FF: #C2D9FF;
+$coF6F9FF: #F6F9FF;
+$co000000: #000000;
+$coDCDFE6: #DCDFE6;
+$co001c2e1f: #001c2e1f;
+$coF2F2F2: #F2F2F2;
+$co1FB56C: #1FB56C;
+$coE6E6E6: #E6E6E6;
+$coF5F9FF: #F5F9FF;
+$coF3F7FE: #F3F7FE;
+$coF76319: #F76319;
+$co90BBFF: #90BBFF;
+$coC6C6C6: #C6C6C6;
+$coE0E3E6: #E0E3E6;
+$coF9F9F9: #F9F9F9;
+$co74A6F4: #74A6F4;
+$cof4f7ff: #f4f7ff;
+$co208dfd: #208dfd;
+$co5d97f4: #5d97f4;
+$co252A3A: #252A3A;
+$co1A1E2B: #1A1E2B;
+$co2F3547: #2F3547;
+$co8087a6: #8087a6;
+$co8087a6: #8087a6;
+$coF0F0F0:#F0F0F0;
+.clffffff {
+    color: $coffffff;
+}
+
+.cl666666 {
+    color: $co666666;
+}
+
+.clC0C0C0 {
+    color: $coC0C0C0;
+}
+
+.cl347CEF {
+    color: $co347CEF;
+}
+
+.clF5F5F5 {
+    color: $coF5F5F5;
+}
+
+.clF7FAFF {
+    color: $coF7FAFF;
+}
+
+.cl95BBF7 {
+    color: $co95BBF7;
+}
+
+.clE6EFFF {
+    color: $coE6EFFF;
+}
+
+.cl3C3C3C {
+    color: $co3C3C3C;
+}
+
+.clFF2222 {
+    color: $coFF2222;
+}
+
+.clF76319 {
+    color: $coF76319 !important;
+}
+
+.clC6C6C6 {
+    color: $coC6C6C6;
+}
+
+.cl71eeb7 {
+    color: $co71eeb7;
+}
+
+.clc6d8fc {
+    color: $coc6d8fc;
+}
+
+.clFFDD22 {
+    color: $coFFDD22;
+}
+
+.clC2D9FF {
+    color: $coC2D9FF;
+}
+
+.clF6F9FF {
+    color: $coF6F9FF;
+}
+
+.cl000000 {
+    color: $co000000;
+}
+
+.cl1FB56C {
+    color: $co1FB56C;
+}
+
+.clE6E6E6 {
+    color: $coE6E6E6;
+}
+
+.clF9F9F9 {
+    color: $coF9F9F9;
+}
+
+.cl74A6F4 {
+    color: $co74A6F4;
+}
+
+.cl8087a6 {
+    color: $co8087a6;
+}
+
+.bk5C5C5C {
+    background: $c09C9C9C;
+}
+
+.bkffffff {
+    background: $coffffff;
+}
+
+.bk000000 {
+    background: $co000000;
+}
+
+.bk666666 {
+    background: $co666666;
+}
+
+.bkF0F0F0 {
+    background: $coF0F0F0;
+}
+
+.bkC0C0C0 {
+    background: $coC0C0C0;
+}
+
+.bk347CEF {
+    background: $co347CEF;
+}
+
+.bkF5F5F5 {
+    background: $coF5F5F5;
+}
+
+.bkF7FAFF {
+    background: $coF7FAFF;
+}
+
+.bk95BBF7 {
+    background: $co95BBF7;
+}
+
+.bkE6EFFF {
+    background: $coE6EFFF;
+}
+
+.bk3C3C3C {
+    background: $co3C3C3C;
+}
+
+.bkFF2222 {
+    background: $coFF2222;
+}
+
+.bk71eeb7 {
+    background: $co71eeb7;
+}
+
+.bkc6d8fc {
+    background: $coc6d8fc;
+}
+
+.bkFFDD22 {
+    background: $coFFDD22;
+}
+
+.bkC2D9FF {
+    background: $coC2D9FF;
+}
+
+.bkF6F9FF {
+    background: $coF6F9FF;
+}
+
+.bkF2F2F2 {
+    background: $coF2F2F2;
+}
+
+.bk1FB56C {
+    background: $co1FB56C;
+}
+
+.bkE6E6E6 {
+    background: $coE6E6E6;
+}
+
+.bkF5F9FF {
+    background: $coF5F9FF;
+}
+
+.bkF3F7FE {
+    background: $coF3F7FE;
+}
+
+.bk90BBFF {
+    background: $co90BBFF;
+}
+
+.bkF9F9F9 {
+    background: $coF9F9F9;
+}
+
+.bk74A6F4 {
+    background: $co74A6F4;
+}
+
+.bkf4f7ff {
+    background: $cof4f7ff;
+}
+
+.bk208dfd {
+    background: $co208dfd;
+}
+
+.bk5d97f4 {
+    background: $co5d97f4;
+}
+
+.bk252A3A {
+    background: $co252A3A;
+}
+
+.bk1A1E2B {
+    background: $co1A1E2B;
+}
+
+.bk2F3547 {
+    background: $co2F3547;
+}
+
+.bk8087a6 {
+    background: $co8087a6;
+}
+
+.bknull {
+    background: transparent !important;
+}
+
+.bc95BBF7 {
+    border-color: $co95BBF7;
+}
+
+.bcffffff {
+    border-color: $coffffff;
+}
+
+.bc347CEF {
+    border-color: $co347CEF;
+}
+
+.bcDCDFE6 {
+    border-color: $coDCDFE6;
+}
+
+.bc001c2e1f {
+    border-color: $co001c2e1f;
+}
+
+.bcC2D9FF {
+    border-color: $coC2D9FF;
+}
+
+.bcE0E3E6 {
+    border-color: $coE0E3E6;
+}
+
+.bc90BBFF {
+    border-color: $co90BBFF;
+}
+
+.hover-cl347CEF:hover {
+    color: $co347CEF;
+}
+
+.hover-cl95BBF7:hover {
+    color: $co95BBF7;
+}
+
+.hover-bk90BBFF:hover {
+    background: $co90BBFF;
+}
+
+.hover-bkC2D9FF:hover {
+    background: $coC2D9FF;
+}
+
+.hover-bkf8f8f8:hover {
+    background: $cof8f8f8;
+}
+
+.hover-bkF6F9FF:hover {
+    background: $coF6F9FF;
+    border: 1px solid #90BBFF;
+}
+
+.selected-co02AD8F {
+    border-bottom: 2px solid $co02AD8F;
+}
+
+.border-color02AD8F,
+.border-hovercolor02AD8F:hover {
+    border-color: $co02AD8F;
+}
+
+.border-colorfbba30,
+.hover-bcolorfbba30:hover {
+    border-color: $cofbba30;
+}

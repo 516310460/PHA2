@@ -1,0 +1,17 @@
+{
+  "i18n-ally.localesPaths": [
+    "static/locales"
+  ],
+  "vue-i18n-ally.localesPaths": "static/locales",
+  "leek-fund.binance": [
+
+    "BTC_USDT",
+    "ETH_USDT",
+    "EOS_USDT"
+  ],
+  "eslint.codeAction.showDocumentation": {
+
+    "enable": true
+  },
+  "editor.tabSize": 2
+}

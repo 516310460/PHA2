@@ -1,0 +1,19 @@
+{
+  "version": 3,
+  "alias": "www.homwang.com",
+  "builds": [{
+    "src": "nuxt.config.js",
+    "use": "@nuxtjs/now-builder"
+  }],
+  "routes": [{
+      "src": "/_nuxt/.+",
+      "headers": {
+        "Cache-Control": "max-age=31557600"
+      }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
