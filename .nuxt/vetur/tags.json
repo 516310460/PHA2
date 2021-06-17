@@ -65,6 +65,9 @@
   "HashRateXbitTrend": {
     "description": "Auto imported from components/HashRate/xbitTrend.vue"
   },
+  "InProgress": {
+    "description": "Auto imported from components/InProgress/index.vue"
+  },
   "TVpublicDealHeader": {
     "description": "Auto imported from components/TVpublic/deal-header.vue"
   },
@@ -86,14 +89,14 @@
   "TVpublicTradeDealHeader": {
     "description": "Auto imported from components/TVpublic/trade-deal-header.vue"
   },
+  "BuycoinsHeader": {
+    "description": "Auto imported from components/buycoins/Header.vue"
+  },
   "DialogNicknameDialog": {
     "description": "Auto imported from components/dialog/NicknameDialog.vue"
   },
   "DialogTipsDialog": {
     "description": "Auto imported from components/dialog/TipsDialog.vue"
-  },
-  "BuycoinsHeader": {
-    "description": "Auto imported from components/buycoins/Header.vue"
   },
   "KlineMain": {
     "description": "Auto imported from components/kline/main.vue"
@@ -109,9 +112,6 @@
   },
   "SelectSearchText": {
     "description": "Auto imported from components/selectSearch/text.vue"
-  },
-  "InProgress": {
-    "description": "Auto imported from components/InProgress/index.vue"
   },
   "HashRateDatafeedsDataUpdater": {
     "description": "Auto imported from components/HashRate/datafeeds/dataUpdater.js"

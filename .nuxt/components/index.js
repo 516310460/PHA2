@@ -22,6 +22,7 @@ export { default as HashRateOrderListTransactionFull } from '../../components/Ha
 export { default as HashRateStop } from '../../components/HashRate/stop.vue'
 export { default as HashRateTradeView } from '../../components/HashRate/tradeView.vue'
 export { default as HashRateXbitTrend } from '../../components/HashRate/xbitTrend.vue'
+export { default as InProgress } from '../../components/InProgress/index.vue'
 export { default as TVpublicDealHeader } from '../../components/TVpublic/deal-header.vue'
 export { default as TVpublicHashRateDealHeader } from '../../components/TVpublic/hashRate-deal-header.vue'
 export { default as TVpublicLoading } from '../../components/TVpublic/loading.vue'
@@ -29,15 +30,14 @@ export { default as TVpublicNumber } from '../../components/TVpublic/number.vue'
 export { default as TVpublicPageLoading } from '../../components/TVpublic/page-loading.vue'
 export { default as TVpublicSlider } from '../../components/TVpublic/slider.vue'
 export { default as TVpublicTradeDealHeader } from '../../components/TVpublic/trade-deal-header.vue'
+export { default as BuycoinsHeader } from '../../components/buycoins/Header.vue'
 export { default as DialogNicknameDialog } from '../../components/dialog/NicknameDialog.vue'
 export { default as DialogTipsDialog } from '../../components/dialog/TipsDialog.vue'
-export { default as BuycoinsHeader } from '../../components/buycoins/Header.vue'
 export { default as KlineMain } from '../../components/kline/main.vue'
 export { default as SelectSearchPhoneSearch } from '../../components/selectSearch/PhoneSearch.vue'
 export { default as SelectSearchPopper } from '../../components/selectSearch/Popper.vue'
 export { default as SelectSearch } from '../../components/selectSearch/SelectSearch.vue'
 export { default as SelectSearchText } from '../../components/selectSearch/text.vue'
-export { default as InProgress } from '../../components/InProgress/index.vue'
 export { default as HashRateDatafeedsDataUpdater } from '../../components/HashRate/datafeeds/dataUpdater.js'
 export { default as HashRateDatafeedsDatafees } from '../../components/HashRate/datafeeds/datafees.js'
 export { default as HashRateDatafeedsSocket } from '../../components/HashRate/datafeeds/socket.js'
@@ -93,6 +93,7 @@ export const LazyHashRateOrderListTransactionFull = import('../../components/Has
 export const LazyHashRateStop = import('../../components/HashRate/stop.vue' /* webpackChunkName: "components/hash-rate-stop" */).then(c => wrapFunctional(c.default || c))
 export const LazyHashRateTradeView = import('../../components/HashRate/tradeView.vue' /* webpackChunkName: "components/hash-rate-trade-view" */).then(c => wrapFunctional(c.default || c))
 export const LazyHashRateXbitTrend = import('../../components/HashRate/xbitTrend.vue' /* webpackChunkName: "components/hash-rate-xbit-trend" */).then(c => wrapFunctional(c.default || c))
+export const LazyInProgress = import('../../components/InProgress/index.vue' /* webpackChunkName: "components/in-progress" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicDealHeader = import('../../components/TVpublic/deal-header.vue' /* webpackChunkName: "components/t-vpublic-deal-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicHashRateDealHeader = import('../../components/TVpublic/hashRate-deal-header.vue' /* webpackChunkName: "components/t-vpublic-hash-rate-deal-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicLoading = import('../../components/TVpublic/loading.vue' /* webpackChunkName: "components/t-vpublic-loading" */).then(c => wrapFunctional(c.default || c))
@@ -100,15 +101,14 @@ export const LazyTVpublicNumber = import('../../components/TVpublic/number.vue' 
 export const LazyTVpublicPageLoading = import('../../components/TVpublic/page-loading.vue' /* webpackChunkName: "components/t-vpublic-page-loading" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicSlider = import('../../components/TVpublic/slider.vue' /* webpackChunkName: "components/t-vpublic-slider" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicTradeDealHeader = import('../../components/TVpublic/trade-deal-header.vue' /* webpackChunkName: "components/t-vpublic-trade-deal-header" */).then(c => wrapFunctional(c.default || c))
+export const LazyBuycoinsHeader = import('../../components/buycoins/Header.vue' /* webpackChunkName: "components/buycoins-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyDialogNicknameDialog = import('../../components/dialog/NicknameDialog.vue' /* webpackChunkName: "components/dialog-nickname-dialog" */).then(c => wrapFunctional(c.default || c))
 export const LazyDialogTipsDialog = import('../../components/dialog/TipsDialog.vue' /* webpackChunkName: "components/dialog-tips-dialog" */).then(c => wrapFunctional(c.default || c))
-export const LazyBuycoinsHeader = import('../../components/buycoins/Header.vue' /* webpackChunkName: "components/buycoins-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyKlineMain = import('../../components/kline/main.vue' /* webpackChunkName: "components/kline-main" */).then(c => wrapFunctional(c.default || c))
 export const LazySelectSearchPhoneSearch = import('../../components/selectSearch/PhoneSearch.vue' /* webpackChunkName: "components/select-search-phone-search" */).then(c => wrapFunctional(c.default || c))
 export const LazySelectSearchPopper = import('../../components/selectSearch/Popper.vue' /* webpackChunkName: "components/select-search-popper" */).then(c => wrapFunctional(c.default || c))
 export const LazySelectSearch = import('../../components/selectSearch/SelectSearch.vue' /* webpackChunkName: "components/select-search" */).then(c => wrapFunctional(c.default || c))
 export const LazySelectSearchText = import('../../components/selectSearch/text.vue' /* webpackChunkName: "components/select-search-text" */).then(c => wrapFunctional(c.default || c))
-export const LazyInProgress = import('../../components/InProgress/index.vue' /* webpackChunkName: "components/in-progress" */).then(c => wrapFunctional(c.default || c))
 export const LazyHashRateDatafeedsDataUpdater = import('../../components/HashRate/datafeeds/dataUpdater.js' /* webpackChunkName: "components/hash-rate-datafeeds-data-updater" */).then(c => wrapFunctional(c.default || c))
 export const LazyHashRateDatafeedsDatafees = import('../../components/HashRate/datafeeds/datafees.js' /* webpackChunkName: "components/hash-rate-datafeeds-datafees" */).then(c => wrapFunctional(c.default || c))
 export const LazyHashRateDatafeedsSocket = import('../../components/HashRate/datafeeds/socket.js' /* webpackChunkName: "components/hash-rate-datafeeds-socket" */).then(c => wrapFunctional(c.default || c))
