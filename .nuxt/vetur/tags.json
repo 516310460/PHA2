@@ -68,9 +68,6 @@
   "InProgress": {
     "description": "Auto imported from components/InProgress/index.vue"
   },
-  "BuycoinsHeader": {
-    "description": "Auto imported from components/buycoins/Header.vue"
-  },
   "TVpublicDealHeader": {
     "description": "Auto imported from components/TVpublic/deal-header.vue"
   },
@@ -91,6 +88,9 @@
   },
   "TVpublicTradeDealHeader": {
     "description": "Auto imported from components/TVpublic/trade-deal-header.vue"
+  },
+  "BuycoinsHeader": {
+    "description": "Auto imported from components/buycoins/Header.vue"
   },
   "DialogNicknameDialog": {
     "description": "Auto imported from components/dialog/NicknameDialog.vue"
@@ -121,6 +121,24 @@
   },
   "HashRateDatafeedsSocket": {
     "description": "Auto imported from components/HashRate/datafeeds/socket.js"
+  },
+  "HashRateJsChartBase": {
+    "description": "Auto imported from components/HashRate/js/chart-base.js"
+  },
+  "HashRateJsChartFeed": {
+    "description": "Auto imported from components/HashRate/js/chart-feed.js"
+  },
+  "HashRateJsChartProvider": {
+    "description": "Auto imported from components/HashRate/js/chart-provider.js"
+  },
+  "HashRateJsChartStream": {
+    "description": "Auto imported from components/HashRate/js/chart-stream.js"
+  },
+  "HashRateJsIndicators": {
+    "description": "Auto imported from components/HashRate/js/indicators.js"
+  },
+  "HashRateJsUtils": {
+    "description": "Auto imported from components/HashRate/js/utils.js"
   },
   "KlineJsAreas": {
     "description": "Auto imported from components/kline/js/areas.js"
@@ -190,23 +208,5 @@
   },
   "KlineJsUtil": {
     "description": "Auto imported from components/kline/js/util.js"
-  },
-  "HashRateJsChartBase": {
-    "description": "Auto imported from components/HashRate/js/chart-base.js"
-  },
-  "HashRateJsChartFeed": {
-    "description": "Auto imported from components/HashRate/js/chart-feed.js"
-  },
-  "HashRateJsChartProvider": {
-    "description": "Auto imported from components/HashRate/js/chart-provider.js"
-  },
-  "HashRateJsChartStream": {
-    "description": "Auto imported from components/HashRate/js/chart-stream.js"
-  },
-  "HashRateJsIndicators": {
-    "description": "Auto imported from components/HashRate/js/indicators.js"
-  },
-  "HashRateJsUtils": {
-    "description": "Auto imported from components/HashRate/js/utils.js"
   }
 }

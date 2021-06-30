@@ -23,7 +23,6 @@ export { default as HashRateStop } from '../../components/HashRate/stop.vue'
 export { default as HashRateTradeView } from '../../components/HashRate/tradeView.vue'
 export { default as HashRateXbitTrend } from '../../components/HashRate/xbitTrend.vue'
 export { default as InProgress } from '../../components/InProgress/index.vue'
-export { default as BuycoinsHeader } from '../../components/buycoins/Header.vue'
 export { default as TVpublicDealHeader } from '../../components/TVpublic/deal-header.vue'
 export { default as TVpublicHashRateDealHeader } from '../../components/TVpublic/hashRate-deal-header.vue'
 export { default as TVpublicLoading } from '../../components/TVpublic/loading.vue'
@@ -31,6 +30,7 @@ export { default as TVpublicNumber } from '../../components/TVpublic/number.vue'
 export { default as TVpublicPageLoading } from '../../components/TVpublic/page-loading.vue'
 export { default as TVpublicSlider } from '../../components/TVpublic/slider.vue'
 export { default as TVpublicTradeDealHeader } from '../../components/TVpublic/trade-deal-header.vue'
+export { default as BuycoinsHeader } from '../../components/buycoins/Header.vue'
 export { default as DialogNicknameDialog } from '../../components/dialog/NicknameDialog.vue'
 export { default as DialogTipsDialog } from '../../components/dialog/TipsDialog.vue'
 export { default as KlineMain } from '../../components/kline/main.vue'
@@ -41,6 +41,12 @@ export { default as SelectSearchText } from '../../components/selectSearch/text.
 export { default as HashRateDatafeedsDataUpdater } from '../../components/HashRate/datafeeds/dataUpdater.js'
 export { default as HashRateDatafeedsDatafees } from '../../components/HashRate/datafeeds/datafees.js'
 export { default as HashRateDatafeedsSocket } from '../../components/HashRate/datafeeds/socket.js'
+export { default as HashRateJsChartBase } from '../../components/HashRate/js/chart-base.js'
+export { default as HashRateJsChartFeed } from '../../components/HashRate/js/chart-feed.js'
+export { default as HashRateJsChartProvider } from '../../components/HashRate/js/chart-provider.js'
+export { default as HashRateJsChartStream } from '../../components/HashRate/js/chart-stream.js'
+export { default as HashRateJsIndicators } from '../../components/HashRate/js/indicators.js'
+export { default as HashRateJsUtils } from '../../components/HashRate/js/utils.js'
 export { default as KlineJsAreas } from '../../components/kline/js/areas.js'
 export { default as KlineJsChart } from '../../components/kline/js/chart.js'
 export { default as KlineJsChartManager } from '../../components/kline/js/chart_manager.js'
@@ -64,12 +70,6 @@ export { default as KlineJsTemplates } from '../../components/kline/js/templates
 export { default as KlineJsThemes } from '../../components/kline/js/themes.js'
 export { default as KlineJsTimeline } from '../../components/kline/js/timeline.js'
 export { default as KlineJsUtil } from '../../components/kline/js/util.js'
-export { default as HashRateJsChartBase } from '../../components/HashRate/js/chart-base.js'
-export { default as HashRateJsChartFeed } from '../../components/HashRate/js/chart-feed.js'
-export { default as HashRateJsChartProvider } from '../../components/HashRate/js/chart-provider.js'
-export { default as HashRateJsChartStream } from '../../components/HashRate/js/chart-stream.js'
-export { default as HashRateJsIndicators } from '../../components/HashRate/js/indicators.js'
-export { default as HashRateJsUtils } from '../../components/HashRate/js/utils.js'
 
 export const LazyExample05Mirrored = import('../../components/Example05Mirrored.vue' /* webpackChunkName: "components/example05-mirrored" */).then(c => wrapFunctional(c.default || c))
 export const LazyFooter = import('../../components/Footer.vue' /* webpackChunkName: "components/footer" */).then(c => wrapFunctional(c.default || c))
@@ -94,7 +94,6 @@ export const LazyHashRateStop = import('../../components/HashRate/stop.vue' /* w
 export const LazyHashRateTradeView = import('../../components/HashRate/tradeView.vue' /* webpackChunkName: "components/hash-rate-trade-view" */).then(c => wrapFunctional(c.default || c))
 export const LazyHashRateXbitTrend = import('../../components/HashRate/xbitTrend.vue' /* webpackChunkName: "components/hash-rate-xbit-trend" */).then(c => wrapFunctional(c.default || c))
 export const LazyInProgress = import('../../components/InProgress/index.vue' /* webpackChunkName: "components/in-progress" */).then(c => wrapFunctional(c.default || c))
-export const LazyBuycoinsHeader = import('../../components/buycoins/Header.vue' /* webpackChunkName: "components/buycoins-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicDealHeader = import('../../components/TVpublic/deal-header.vue' /* webpackChunkName: "components/t-vpublic-deal-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicHashRateDealHeader = import('../../components/TVpublic/hashRate-deal-header.vue' /* webpackChunkName: "components/t-vpublic-hash-rate-deal-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicLoading = import('../../components/TVpublic/loading.vue' /* webpackChunkName: "components/t-vpublic-loading" */).then(c => wrapFunctional(c.default || c))
@@ -102,6 +101,7 @@ export const LazyTVpublicNumber = import('../../components/TVpublic/number.vue' 
 export const LazyTVpublicPageLoading = import('../../components/TVpublic/page-loading.vue' /* webpackChunkName: "components/t-vpublic-page-loading" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicSlider = import('../../components/TVpublic/slider.vue' /* webpackChunkName: "components/t-vpublic-slider" */).then(c => wrapFunctional(c.default || c))
 export const LazyTVpublicTradeDealHeader = import('../../components/TVpublic/trade-deal-header.vue' /* webpackChunkName: "components/t-vpublic-trade-deal-header" */).then(c => wrapFunctional(c.default || c))
+export const LazyBuycoinsHeader = import('../../components/buycoins/Header.vue' /* webpackChunkName: "components/buycoins-header" */).then(c => wrapFunctional(c.default || c))
 export const LazyDialogNicknameDialog = import('../../components/dialog/NicknameDialog.vue' /* webpackChunkName: "components/dialog-nickname-dialog" */).then(c => wrapFunctional(c.default || c))
 export const LazyDialogTipsDialog = import('../../components/dialog/TipsDialog.vue' /* webpackChunkName: "components/dialog-tips-dialog" */).then(c => wrapFunctional(c.default || c))
 export const LazyKlineMain = import('../../components/kline/main.vue' /* webpackChunkName: "components/kline-main" */).then(c => wrapFunctional(c.default || c))
@@ -112,6 +112,12 @@ export const LazySelectSearchText = import('../../components/selectSearch/text.v
 export const LazyHashRateDatafeedsDataUpdater = import('../../components/HashRate/datafeeds/dataUpdater.js' /* webpackChunkName: "components/hash-rate-datafeeds-data-updater" */).then(c => wrapFunctional(c.default || c))
 export const LazyHashRateDatafeedsDatafees = import('../../components/HashRate/datafeeds/datafees.js' /* webpackChunkName: "components/hash-rate-datafeeds-datafees" */).then(c => wrapFunctional(c.default || c))
 export const LazyHashRateDatafeedsSocket = import('../../components/HashRate/datafeeds/socket.js' /* webpackChunkName: "components/hash-rate-datafeeds-socket" */).then(c => wrapFunctional(c.default || c))
+export const LazyHashRateJsChartBase = import('../../components/HashRate/js/chart-base.js' /* webpackChunkName: "components/hash-rate-js-chart-base" */).then(c => wrapFunctional(c.default || c))
+export const LazyHashRateJsChartFeed = import('../../components/HashRate/js/chart-feed.js' /* webpackChunkName: "components/hash-rate-js-chart-feed" */).then(c => wrapFunctional(c.default || c))
+export const LazyHashRateJsChartProvider = import('../../components/HashRate/js/chart-provider.js' /* webpackChunkName: "components/hash-rate-js-chart-provider" */).then(c => wrapFunctional(c.default || c))
+export const LazyHashRateJsChartStream = import('../../components/HashRate/js/chart-stream.js' /* webpackChunkName: "components/hash-rate-js-chart-stream" */).then(c => wrapFunctional(c.default || c))
+export const LazyHashRateJsIndicators = import('../../components/HashRate/js/indicators.js' /* webpackChunkName: "components/hash-rate-js-indicators" */).then(c => wrapFunctional(c.default || c))
+export const LazyHashRateJsUtils = import('../../components/HashRate/js/utils.js' /* webpackChunkName: "components/hash-rate-js-utils" */).then(c => wrapFunctional(c.default || c))
 export const LazyKlineJsAreas = import('../../components/kline/js/areas.js' /* webpackChunkName: "components/kline-js-areas" */).then(c => wrapFunctional(c.default || c))
 export const LazyKlineJsChart = import('../../components/kline/js/chart.js' /* webpackChunkName: "components/kline-js-chart" */).then(c => wrapFunctional(c.default || c))
 export const LazyKlineJsChartManager = import('../../components/kline/js/chart_manager.js' /* webpackChunkName: "components/kline-js-chart-manager" */).then(c => wrapFunctional(c.default || c))
@@ -135,9 +141,3 @@ export const LazyKlineJsTemplates = import('../../components/kline/js/templates.
 export const LazyKlineJsThemes = import('../../components/kline/js/themes.js' /* webpackChunkName: "components/kline-js-themes" */).then(c => wrapFunctional(c.default || c))
 export const LazyKlineJsTimeline = import('../../components/kline/js/timeline.js' /* webpackChunkName: "components/kline-js-timeline" */).then(c => wrapFunctional(c.default || c))
 export const LazyKlineJsUtil = import('../../components/kline/js/util.js' /* webpackChunkName: "components/kline-js-util" */).then(c => wrapFunctional(c.default || c))
-export const LazyHashRateJsChartBase = import('../../components/HashRate/js/chart-base.js' /* webpackChunkName: "components/hash-rate-js-chart-base" */).then(c => wrapFunctional(c.default || c))
-export const LazyHashRateJsChartFeed = import('../../components/HashRate/js/chart-feed.js' /* webpackChunkName: "components/hash-rate-js-chart-feed" */).then(c => wrapFunctional(c.default || c))
-export const LazyHashRateJsChartProvider = import('../../components/HashRate/js/chart-provider.js' /* webpackChunkName: "components/hash-rate-js-chart-provider" */).then(c => wrapFunctional(c.default || c))
-export const LazyHashRateJsChartStream = import('../../components/HashRate/js/chart-stream.js' /* webpackChunkName: "components/hash-rate-js-chart-stream" */).then(c => wrapFunctional(c.default || c))
-export const LazyHashRateJsIndicators = import('../../components/HashRate/js/indicators.js' /* webpackChunkName: "components/hash-rate-js-indicators" */).then(c => wrapFunctional(c.default || c))
-export const LazyHashRateJsUtils = import('../../components/HashRate/js/utils.js' /* webpackChunkName: "components/hash-rate-js-utils" */).then(c => wrapFunctional(c.default || c))

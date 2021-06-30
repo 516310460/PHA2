@@ -25,7 +25,6 @@ const components = {
   HashRateTradeView: () => import('../../components/HashRate/tradeView.vue' /* webpackChunkName: "components/hash-rate-trade-view" */).then(c => wrapFunctional(c.default || c)),
   HashRateXbitTrend: () => import('../../components/HashRate/xbitTrend.vue' /* webpackChunkName: "components/hash-rate-xbit-trend" */).then(c => wrapFunctional(c.default || c)),
   InProgress: () => import('../../components/InProgress/index.vue' /* webpackChunkName: "components/in-progress" */).then(c => wrapFunctional(c.default || c)),
-  BuycoinsHeader: () => import('../../components/buycoins/Header.vue' /* webpackChunkName: "components/buycoins-header" */).then(c => wrapFunctional(c.default || c)),
   TVpublicDealHeader: () => import('../../components/TVpublic/deal-header.vue' /* webpackChunkName: "components/t-vpublic-deal-header" */).then(c => wrapFunctional(c.default || c)),
   TVpublicHashRateDealHeader: () => import('../../components/TVpublic/hashRate-deal-header.vue' /* webpackChunkName: "components/t-vpublic-hash-rate-deal-header" */).then(c => wrapFunctional(c.default || c)),
   TVpublicLoading: () => import('../../components/TVpublic/loading.vue' /* webpackChunkName: "components/t-vpublic-loading" */).then(c => wrapFunctional(c.default || c)),
@@ -33,6 +32,7 @@ const components = {
   TVpublicPageLoading: () => import('../../components/TVpublic/page-loading.vue' /* webpackChunkName: "components/t-vpublic-page-loading" */).then(c => wrapFunctional(c.default || c)),
   TVpublicSlider: () => import('../../components/TVpublic/slider.vue' /* webpackChunkName: "components/t-vpublic-slider" */).then(c => wrapFunctional(c.default || c)),
   TVpublicTradeDealHeader: () => import('../../components/TVpublic/trade-deal-header.vue' /* webpackChunkName: "components/t-vpublic-trade-deal-header" */).then(c => wrapFunctional(c.default || c)),
+  BuycoinsHeader: () => import('../../components/buycoins/Header.vue' /* webpackChunkName: "components/buycoins-header" */).then(c => wrapFunctional(c.default || c)),
   DialogNicknameDialog: () => import('../../components/dialog/NicknameDialog.vue' /* webpackChunkName: "components/dialog-nickname-dialog" */).then(c => wrapFunctional(c.default || c)),
   DialogTipsDialog: () => import('../../components/dialog/TipsDialog.vue' /* webpackChunkName: "components/dialog-tips-dialog" */).then(c => wrapFunctional(c.default || c)),
   KlineMain: () => import('../../components/kline/main.vue' /* webpackChunkName: "components/kline-main" */).then(c => wrapFunctional(c.default || c)),
@@ -43,6 +43,12 @@ const components = {
   HashRateDatafeedsDataUpdater: () => import('../../components/HashRate/datafeeds/dataUpdater.js' /* webpackChunkName: "components/hash-rate-datafeeds-data-updater" */).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsDatafees: () => import('../../components/HashRate/datafeeds/datafees.js' /* webpackChunkName: "components/hash-rate-datafeeds-datafees" */).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsSocket: () => import('../../components/HashRate/datafeeds/socket.js' /* webpackChunkName: "components/hash-rate-datafeeds-socket" */).then(c => wrapFunctional(c.default || c)),
+  HashRateJsChartBase: () => import('../../components/HashRate/js/chart-base.js' /* webpackChunkName: "components/hash-rate-js-chart-base" */).then(c => wrapFunctional(c.default || c)),
+  HashRateJsChartFeed: () => import('../../components/HashRate/js/chart-feed.js' /* webpackChunkName: "components/hash-rate-js-chart-feed" */).then(c => wrapFunctional(c.default || c)),
+  HashRateJsChartProvider: () => import('../../components/HashRate/js/chart-provider.js' /* webpackChunkName: "components/hash-rate-js-chart-provider" */).then(c => wrapFunctional(c.default || c)),
+  HashRateJsChartStream: () => import('../../components/HashRate/js/chart-stream.js' /* webpackChunkName: "components/hash-rate-js-chart-stream" */).then(c => wrapFunctional(c.default || c)),
+  HashRateJsIndicators: () => import('../../components/HashRate/js/indicators.js' /* webpackChunkName: "components/hash-rate-js-indicators" */).then(c => wrapFunctional(c.default || c)),
+  HashRateJsUtils: () => import('../../components/HashRate/js/utils.js' /* webpackChunkName: "components/hash-rate-js-utils" */).then(c => wrapFunctional(c.default || c)),
   KlineJsAreas: () => import('../../components/kline/js/areas.js' /* webpackChunkName: "components/kline-js-areas" */).then(c => wrapFunctional(c.default || c)),
   KlineJsChart: () => import('../../components/kline/js/chart.js' /* webpackChunkName: "components/kline-js-chart" */).then(c => wrapFunctional(c.default || c)),
   KlineJsChartManager: () => import('../../components/kline/js/chart_manager.js' /* webpackChunkName: "components/kline-js-chart-manager" */).then(c => wrapFunctional(c.default || c)),
@@ -65,13 +71,7 @@ const components = {
   KlineJsTemplates: () => import('../../components/kline/js/templates.js' /* webpackChunkName: "components/kline-js-templates" */).then(c => wrapFunctional(c.default || c)),
   KlineJsThemes: () => import('../../components/kline/js/themes.js' /* webpackChunkName: "components/kline-js-themes" */).then(c => wrapFunctional(c.default || c)),
   KlineJsTimeline: () => import('../../components/kline/js/timeline.js' /* webpackChunkName: "components/kline-js-timeline" */).then(c => wrapFunctional(c.default || c)),
-  KlineJsUtil: () => import('../../components/kline/js/util.js' /* webpackChunkName: "components/kline-js-util" */).then(c => wrapFunctional(c.default || c)),
-  HashRateJsChartBase: () => import('../../components/HashRate/js/chart-base.js' /* webpackChunkName: "components/hash-rate-js-chart-base" */).then(c => wrapFunctional(c.default || c)),
-  HashRateJsChartFeed: () => import('../../components/HashRate/js/chart-feed.js' /* webpackChunkName: "components/hash-rate-js-chart-feed" */).then(c => wrapFunctional(c.default || c)),
-  HashRateJsChartProvider: () => import('../../components/HashRate/js/chart-provider.js' /* webpackChunkName: "components/hash-rate-js-chart-provider" */).then(c => wrapFunctional(c.default || c)),
-  HashRateJsChartStream: () => import('../../components/HashRate/js/chart-stream.js' /* webpackChunkName: "components/hash-rate-js-chart-stream" */).then(c => wrapFunctional(c.default || c)),
-  HashRateJsIndicators: () => import('../../components/HashRate/js/indicators.js' /* webpackChunkName: "components/hash-rate-js-indicators" */).then(c => wrapFunctional(c.default || c)),
-  HashRateJsUtils: () => import('../../components/HashRate/js/utils.js' /* webpackChunkName: "components/hash-rate-js-utils" */).then(c => wrapFunctional(c.default || c))
+  KlineJsUtil: () => import('../../components/kline/js/util.js' /* webpackChunkName: "components/kline-js-util" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

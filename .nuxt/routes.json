@@ -3,30 +3,35 @@
     "name": "lang",
     "path": "/:lang",
     "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA2/pages/_lang/index.vue",
-    "chunkName": "pages/_lang/index"
+    "chunkName": "pages/_lang/index",
+    "_name": "_c6e9dc9e"
   },
   {
     "name": "lang-Assets",
     "path": "/:lang?/Assets",
     "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA2/pages/_lang/Assets.vue",
-    "chunkName": "pages/_lang/Assets"
+    "chunkName": "pages/_lang/Assets",
+    "_name": "_7c84fb58"
   },
   {
     "name": "lang-Login",
     "path": "/:lang?/Login",
     "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA2/pages/_lang/Login.vue",
-    "chunkName": "pages/_lang/Login"
+    "chunkName": "pages/_lang/Login",
+    "_name": "_44b656b0"
   },
   {
     "name": "lang-Register",
     "path": "/:lang?/Register",
     "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA2/pages/_lang/Register.vue",
-    "chunkName": "pages/_lang/Register"
+    "chunkName": "pages/_lang/Register",
+    "_name": "_a24fb998"
   },
   {
     "name": "lang-ResetPassword",
     "path": "/:lang?/ResetPassword",
     "component": "/Users/ouhiroshi/Home/项目/交易所app和后台/PHA2/pages/_lang/ResetPassword.vue",
-    "chunkName": "pages/_lang/ResetPassword"
+    "chunkName": "pages/_lang/ResetPassword",
+    "_name": "_504692c9"
   }
 ]
