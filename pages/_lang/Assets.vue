@@ -426,9 +426,9 @@
           </div>
         </div>
         <div class="new_introduct">
-          <p><span>•</span> 最小提币数量0.2{{value || (balanceData.length ? balanceData[0] : 0)}}。</p>
+          <p><span>•</span> 最小提币数量1 {{value}}。</p>
           <p><span>•</span> 您的提币数量中包含用于转账的手续费。</p>
-          <p><span>•</span> 请勿向上述地址充值任何非 {{value || (balanceData.length ? balanceData[0] : 0)}} 资产，否则资产将不可找回。</p>
+          <!-- <p><span>•</span> 请勿向上述地址充值任何非 {{value || (balanceData.length ? balanceData[0] : 0)}} 资产，否则资产将不可找回。</p> -->
           <p><span>•</span> 您的充值地址不会经常改变，可以重复充值。</p>
           <p><span>•</span> 请务必确认电脑及浏览器安全，防止信息被篡改或泄露。</p>
         </div>
@@ -559,6 +559,7 @@ export default {
         "address": this.withdrawParams.address,// "收款地址"
         "balance": this.withdrawParams.balance,// "提币金额"
         "code": this.withdrawParams.code,// "邮件验证码"
+        "coinName": this.value
       }
       this.$api.userAccount.withdraw(params).then(res => {
         if (res.type == "success") {
@@ -581,6 +582,7 @@ export default {
       this.$api.userAccount.balance().then(res => {
         if (res.type == "success") {
           this.balanceData = res.data
+          this.value = balanceData.length ? balanceData[0].coinName : ''
         }
       })
     },

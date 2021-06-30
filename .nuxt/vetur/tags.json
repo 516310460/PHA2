@@ -92,6 +92,15 @@
   "BuycoinsHeader": {
     "description": "Auto imported from components/buycoins/Header.vue"
   },
+  "KlineMain": {
+    "description": "Auto imported from components/kline/main.vue"
+  },
+  "DialogNicknameDialog": {
+    "description": "Auto imported from components/dialog/NicknameDialog.vue"
+  },
+  "DialogTipsDialog": {
+    "description": "Auto imported from components/dialog/TipsDialog.vue"
+  },
   "SelectSearchPhoneSearch": {
     "description": "Auto imported from components/selectSearch/PhoneSearch.vue"
   },
@@ -103,15 +112,6 @@
   },
   "SelectSearchText": {
     "description": "Auto imported from components/selectSearch/text.vue"
-  },
-  "KlineMain": {
-    "description": "Auto imported from components/kline/main.vue"
-  },
-  "DialogNicknameDialog": {
-    "description": "Auto imported from components/dialog/NicknameDialog.vue"
-  },
-  "DialogTipsDialog": {
-    "description": "Auto imported from components/dialog/TipsDialog.vue"
   },
   "HashRateDatafeedsDataUpdater": {
     "description": "Auto imported from components/HashRate/datafeeds/dataUpdater.js"
