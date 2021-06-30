@@ -358,7 +358,18 @@
       :visible.sync="dialogFormVisible2"
     >
       <div class="loginParameter security_alert ">
-        <div class="login_list"><img
+        <div class="login_list pl0">
+          <el-select class="w-full" v-model="value" placeholder="请选择">
+            <el-option
+              v-for="item in balanceData"
+              :key="item.coinName"
+              :label="item.coinName"
+              :value="item.coinName">
+            </el-option>
+          </el-select>
+        </div>
+        <div class="login_list">
+        <img
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjBDN0RCNjIyQTBCMjExRUJBRDMwRjRGRjM1M0I4NkMzIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjBDN0RCNjIzQTBCMjExRUJBRDMwRjRGRjM1M0I4NkMzIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MEM3REI2MjBBMEIyMTFFQkFEMzBGNEZGMzUzQjg2QzMiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MEM3REI2MjFBMEIyMTFFQkFEMzBGNEZGMzUzQjg2QzMiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4wxEmeAAABX1BMVEWz29rA4eC63t3H5OTZ7e3O6Oe94N/7/f39/v6/4eC7397Q6ej+//+23NvM5+bI5eTU6+rR6em8396+4N/K5uXP6Oj8/v7w+Pj3+/v2+/u43dzL5ubG5OO53t3q9fW029rT6ur5/PzB4eHJ5uXt9va33dzE4+LS6unC4uHN5+f+/v78/f3N5+b1+vrL5+a+4OC03NvF5OPp9fTL5uXu9/e13Nv4/PzJ5eXx+PjC4uLj8vHf8O/v9/fz+fnh8fC23dzV6+vy+fjk8vK6397s9vbd7+7W7Ovy+fno9PTY7eza7e3Z7ezx+fjR6ei43t3i8fH6/Pzl8/PD4uLn9PPB4uHA4eH0+vrY7Ozg8PDD4+Lh8fHf8PDl8/Lc7u7P6Ofj8vLt9/bH5eTn8/P6/f34+/ve7+/X7Ovm8/Pb7u7a7u3b7u3v+Pfw+PfX7Ozr9fXF4+Pn9PTV6+rW6+vp9PT///+ukfZ3AAAAdXRSTlP//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////wCbsN7qAAAD90lEQVR42uzZ91/aQBQA8AMMQ1EcyBJEQAEH4sJtXbVua91Wa/fe7fv/P43JvUBCEi6Dfj79NO8nQ3L5Jube3cuFwF8I4iAO4iAO4iD/CfK+zz1B7I+huaiERPOkabFDkZWh5hnE7ROQYA9pZjwXkMdNNQgnIFlxo6fo3txsFaNbCK8UPXyUywExXEyRDSXE87oEpF3cuI6BT4zR0Ugk4hdiZCTIh6l+2++mD0VA8L5cs3bmxpX05GUIcUftMy6JBkJWB+0yBogmQsgTe4w7ooeQLRsIX4ioIznaF8gjy0b8jJ4qdaZANtZpTyaHFo35TXqi1nVOgezBTIru7PNbMR7ixQbi4FEg+wDbXrp78rV5YyeNJzkGSCqQFv6A2AJeRMmssYiPO3z/7/CoINVu4T4wZzxDY1jYVEUgOE0PSsyYMdbQ6AIdBKCXHtbeb9zoQmMP9BH4ikc+NWqM1bXUROBGeT1sEcHnOTEFjRH4gUqnkTTP4tNcBhYEBldpgzb2NG+lTbzbwIZAFJuEIwbTfEE28ekiUHLRRicxFuNUSsERYEdg9CWOcvONjQdo9Cp2NEAAOjBhGs6WLWgMgFEE2mjT9BRjCl6CcQQ6sfWGnsHhUUtgBoEPDHNyHx5zC+aQagH7S4MY9dADKt/ALAJTafmwqkzzc7r7aBnMIzBDC1oyprJTytnABVhBYCVATxTyKXcN4muNJwPWEIhgfXFe0pjNezR7BTOy1i5VaZ9V05ys7lpFemtqwYl+lTTXmxMYEU7+1nRbl+ZiFKwgOIDhoEzeivVGmG4WC7ozDxOC6Tw+Ij2Bd/zPfpxpvW+kW+LMIngf0/zfG9Xh3I9v/fn7rluQVVqGEaw+wmLy44oFl8T788vedzgzyDBtnMMpVrGkcKgs6TjjCKcw+OT31ho17zH7WkojhJP9r8SYPakan9RKYM4YgkaH7Fe/NHvcyA9fUh9G9RFOq8sUNN5fF1UvShfhtDvM/ZxcUSnGX9V0dyZkWKPCEVczBgqqawr9dFAOBZmQDsNFqji9VMRmyQgDEjZn8LMonRTyvobInFkDYJmma/G4AWLBAPhCK4JsRhfJWTH40iIhW9VSR8J6/YolDo5o/RLTRPr0Jge22KZrNOWYBjJu9T7u44IOo954/YrEbtVoA0sRo3N1d7wOuZJysMvqUlSGrp50x+4UyFan1puMiUW1SVr1XSuQhInXas0IzukuD9pi1Ix/ashP25ZsOQXSrjZvWw6pxkzVrtUL3djG6JQhHxH5XnTZF8V8da7kkUyqqZ82Xohfgk6baeTwm9bvSvO+NpWkr3PrySYZoXjtd8bFybT9RHnJ+SzrIA7iIP8u8keAAQDk72xp1NGk9AAAAABJRU5ErkJggg=="
             class="login_icon"
           >
@@ -415,9 +426,9 @@
           </div>
         </div>
         <div class="new_introduct">
-          <p><span>•</span> 最小提币数量0.2PHA。</p>
+          <p><span>•</span> 最小提币数量0.2{{value || (balanceData.length ? balanceData[0] : 0)}}。</p>
           <p><span>•</span> 您的提币数量中包含用于转账的手续费。</p>
-          <p><span>•</span> 请勿向上述地址充值任何非 PHA 资产，否则资产将不可找回。</p>
+          <p><span>•</span> 请勿向上述地址充值任何非 {{value || (balanceData.length ? balanceData[0] : 0)}} 资产，否则资产将不可找回。</p>
           <p><span>•</span> 您的充值地址不会经常改变，可以重复充值。</p>
           <p><span>•</span> 请务必确认电脑及浏览器安全，防止信息被篡改或泄露。</p>
         </div>
@@ -454,7 +465,7 @@
         <div class="mt20 loginParameter_input"><button
             @click="withdraw"
             class="colorfff text_center cursor"
-          >确认修改</button></div>
+          >确认提币</button></div>
       </div>
     </el-dialog>
   </div>
@@ -464,6 +475,23 @@ import { mapState, mapMutations } from 'vuex'
 export default {
   data () {
     return {
+      options: [{
+        value: '选项1',
+        label: '黄金糕'
+      }, {
+        value: '选项2',
+        label: '双皮奶'
+      }, {
+        value: '选项3',
+        label: '蚵仔煎'
+      }, {
+        value: '选项4',
+        label: '龙须面'
+      }, {
+        value: '选项5',
+        label: '北京烤鸭'
+      }],
+      value: '',
       activeName: "PHA",
       visible: false,
       dialogFormVisible: false,
