@@ -220,7 +220,7 @@ var external_vuex_ = __webpack_require__(2);
       let image = new Image(); //解决跨域问题
 
       image.setAttribute('crossOrigin', 'anonymous');
-      image.src = "https://smwl.mycoin.icu" + "/api/user/getImageCode?time=" + new Date().getTime(); //image.onload为异步加载
+      image.src = "http://43.128.5.136:9899" + "/api/user/getImageCode?time=" + new Date().getTime(); //image.onload为异步加载
 
       image.onload = () => {
         var canvas = document.createElement("canvas");

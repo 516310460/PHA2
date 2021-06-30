@@ -50589,7 +50589,7 @@ async function setContext(app, context) {
       error: context.error,
       base: app.router.options.base,
       env: {
-        "baseUrl": "https://smwl.mycoin.icu",
+        "baseUrl": "http://43.128.5.136:9899",
         "imgServerUrl": "https://buybit.oss-cn-hongkong.aliyuncs.com/",
         "webSocketUrl": "wss://www.buybit.com",
         "webSocketHttpUrl": "https://www.buybit.com"
@@ -52795,30 +52795,24 @@ const components = {
   HashRateTradeView: () => __webpack_require__.e(/* import() | components/hash-rate-trade-view */ 27).then(__webpack_require__.bind(null, 340)).then(c => wrapFunctional(c.default || c)),
   HashRateXbitTrend: () => __webpack_require__.e(/* import() | components/hash-rate-xbit-trend */ 28).then(__webpack_require__.bind(null, 356)).then(c => wrapFunctional(c.default || c)),
   InProgress: () => __webpack_require__.e(/* import() | components/in-progress */ 29).then(__webpack_require__.bind(null, 357)).then(c => wrapFunctional(c.default || c)),
-  TVpublicDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-deal-header */ 43).then(__webpack_require__.bind(null, 358)).then(c => wrapFunctional(c.default || c)),
-  TVpublicHashRateDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-hash-rate-deal-header */ 44).then(__webpack_require__.bind(null, 359)).then(c => wrapFunctional(c.default || c)),
-  TVpublicLoading: () => __webpack_require__.e(/* import() | components/t-vpublic-loading */ 45).then(__webpack_require__.bind(null, 360)).then(c => wrapFunctional(c.default || c)),
+  BuycoinsHeader: () => __webpack_require__.e(/* import() | components/buycoins-header */ 2).then(__webpack_require__.bind(null, 358)).then(c => wrapFunctional(c.default || c)),
+  TVpublicDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-deal-header */ 43).then(__webpack_require__.bind(null, 359)).then(c => wrapFunctional(c.default || c)),
+  TVpublicHashRateDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-hash-rate-deal-header */ 44).then(__webpack_require__.bind(null, 360)).then(c => wrapFunctional(c.default || c)),
+  TVpublicLoading: () => __webpack_require__.e(/* import() | components/t-vpublic-loading */ 45).then(__webpack_require__.bind(null, 361)).then(c => wrapFunctional(c.default || c)),
   TVpublicNumber: () => __webpack_require__.e(/* import() | components/t-vpublic-number */ 46).then(__webpack_require__.bind(null, 159)).then(c => wrapFunctional(c.default || c)),
   TVpublicPageLoading: () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 71)).then(c => wrapFunctional(c.default || c)),
   TVpublicSlider: () => __webpack_require__.e(/* import() | components/t-vpublic-slider */ 47).then(__webpack_require__.bind(null, 160)).then(c => wrapFunctional(c.default || c)),
-  TVpublicTradeDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-trade-deal-header */ 48).then(__webpack_require__.bind(null, 361)).then(c => wrapFunctional(c.default || c)),
-  BuycoinsHeader: () => __webpack_require__.e(/* import() | components/buycoins-header */ 2).then(__webpack_require__.bind(null, 362)).then(c => wrapFunctional(c.default || c)),
+  TVpublicTradeDealHeader: () => __webpack_require__.e(/* import() | components/t-vpublic-trade-deal-header */ 48).then(__webpack_require__.bind(null, 362)).then(c => wrapFunctional(c.default || c)),
   DialogNicknameDialog: () => __webpack_require__.e(/* import() | components/dialog-nickname-dialog */ 3).then(__webpack_require__.bind(null, 363)).then(c => wrapFunctional(c.default || c)),
   DialogTipsDialog: () => __webpack_require__.e(/* import() | components/dialog-tips-dialog */ 4).then(__webpack_require__.bind(null, 364)).then(c => wrapFunctional(c.default || c)),
+  KlineMain: () => __webpack_require__.e(/* import() | components/kline-main */ 35).then(__webpack_require__.bind(null, 368)).then(c => wrapFunctional(c.default || c)),
   SelectSearchPhoneSearch: () => __webpack_require__.e(/* import() | components/select-search-phone-search */ 39).then(__webpack_require__.bind(null, 365)).then(c => wrapFunctional(c.default || c)),
   SelectSearchPopper: () => __webpack_require__.e(/* import() | components/select-search-popper */ 40).then(__webpack_require__.bind(null, 191)).then(c => wrapFunctional(c.default || c)),
   SelectSearch: () => __webpack_require__.e(/* import() | components/select-search */ 38).then(__webpack_require__.bind(null, 366)).then(c => wrapFunctional(c.default || c)),
   SelectSearchText: () => __webpack_require__.e(/* import() | components/select-search-text */ 41).then(__webpack_require__.bind(null, 367)).then(c => wrapFunctional(c.default || c)),
-  KlineMain: () => __webpack_require__.e(/* import() | components/kline-main */ 35).then(__webpack_require__.bind(null, 368)).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsDataUpdater: () => __webpack_require__.e(/* import() | components/hash-rate-datafeeds-data-updater */ 6).then(__webpack_require__.bind(null, 190)).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsDatafees: () => __webpack_require__.e(/* import() | components/hash-rate-datafeeds-datafees */ 7).then(__webpack_require__.bind(null, 230)).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsSocket: () => __webpack_require__.e(/* import() | components/hash-rate-datafeeds-socket */ 8).then(__webpack_require__.bind(null, 229)).then(c => wrapFunctional(c.default || c)),
-  HashRateJsChartBase: () => __webpack_require__.e(/* import() | components/hash-rate-js-chart-base */ 12).then(__webpack_require__.bind(null, 228)).then(c => wrapFunctional(c.default || c)),
-  HashRateJsChartFeed: () => __webpack_require__.e(/* import() | components/hash-rate-js-chart-feed */ 13).then(__webpack_require__.bind(null, 227)).then(c => wrapFunctional(c.default || c)),
-  HashRateJsChartProvider: () => __webpack_require__.e(/* import() | components/hash-rate-js-chart-provider */ 14).then(__webpack_require__.bind(null, 146)).then(c => wrapFunctional(c.default || c)),
-  HashRateJsChartStream: () => __webpack_require__.e(/* import() | components/hash-rate-js-chart-stream */ 15).then(__webpack_require__.bind(null, 189)).then(c => wrapFunctional(c.default || c)),
-  HashRateJsIndicators: () => __webpack_require__.e(/* import() | components/hash-rate-js-indicators */ 16).then(__webpack_require__.t.bind(null, 339, 7)).then(c => wrapFunctional(c.default || c)),
-  HashRateJsUtils: () => __webpack_require__.e(/* import() | components/hash-rate-js-utils */ 17).then(__webpack_require__.bind(null, 188)).then(c => wrapFunctional(c.default || c)),
   KlineJsAreas: () => __webpack_require__.e(/* import() | components/kline-js-areas */ 0).then(__webpack_require__.bind(null, 204)).then(c => wrapFunctional(c.default || c)),
   KlineJsChart: () => __webpack_require__.e(/* import() | components/kline-js-chart */ 0).then(__webpack_require__.bind(null, 337)).then(c => wrapFunctional(c.default || c)),
   KlineJsChartManager: () => __webpack_require__.e(/* import() | components/kline-js-chart-manager */ 0).then(__webpack_require__.bind(null, 142)).then(c => wrapFunctional(c.default || c)),
@@ -52841,7 +52835,13 @@ const components = {
   KlineJsTemplates: () => __webpack_require__.e(/* import() | components/kline-js-templates */ 0).then(__webpack_require__.bind(null, 206)).then(c => wrapFunctional(c.default || c)),
   KlineJsThemes: () => __webpack_require__.e(/* import() | components/kline-js-themes */ 0).then(__webpack_require__.bind(null, 187)).then(c => wrapFunctional(c.default || c)),
   KlineJsTimeline: () => __webpack_require__.e(/* import() | components/kline-js-timeline */ 0).then(__webpack_require__.bind(null, 335)).then(c => wrapFunctional(c.default || c)),
-  KlineJsUtil: () => __webpack_require__.e(/* import() | components/kline-js-util */ 34).then(__webpack_require__.bind(null, 158)).then(c => wrapFunctional(c.default || c))
+  KlineJsUtil: () => __webpack_require__.e(/* import() | components/kline-js-util */ 34).then(__webpack_require__.bind(null, 158)).then(c => wrapFunctional(c.default || c)),
+  HashRateJsChartBase: () => __webpack_require__.e(/* import() | components/hash-rate-js-chart-base */ 12).then(__webpack_require__.bind(null, 228)).then(c => wrapFunctional(c.default || c)),
+  HashRateJsChartFeed: () => __webpack_require__.e(/* import() | components/hash-rate-js-chart-feed */ 13).then(__webpack_require__.bind(null, 227)).then(c => wrapFunctional(c.default || c)),
+  HashRateJsChartProvider: () => __webpack_require__.e(/* import() | components/hash-rate-js-chart-provider */ 14).then(__webpack_require__.bind(null, 146)).then(c => wrapFunctional(c.default || c)),
+  HashRateJsChartStream: () => __webpack_require__.e(/* import() | components/hash-rate-js-chart-stream */ 15).then(__webpack_require__.bind(null, 189)).then(c => wrapFunctional(c.default || c)),
+  HashRateJsIndicators: () => __webpack_require__.e(/* import() | components/hash-rate-js-indicators */ 16).then(__webpack_require__.t.bind(null, 339, 7)).then(c => wrapFunctional(c.default || c)),
+  HashRateJsUtils: () => __webpack_require__.e(/* import() | components/hash-rate-js-utils */ 17).then(__webpack_require__.bind(null, 188)).then(c => wrapFunctional(c.default || c))
 };
 
 for (const name in components) {
@@ -53065,7 +53065,7 @@ const setupProgress = axios => {
   // runtimeConfig
   const runtimeConfig = ctx.$config && ctx.$config.axios || {}; // baseURL
 
-  const baseURL =  false ? undefined : runtimeConfig.baseURL || runtimeConfig.baseUrl || process.env._AXIOS_BASE_URL_ || 'https://smwl.mycoin.icu'; // Create fresh objects for all default header scopes
+  const baseURL =  false ? undefined : runtimeConfig.baseURL || runtimeConfig.baseUrl || process.env._AXIOS_BASE_URL_ || 'http://43.128.5.136:9899'; // Create fresh objects for all default header scopes
   // Axios creates only one which is shared across SSR requests!
   // https://github.com/mzabriskie/axios/blob/master/lib/defaults.js
 
@@ -64829,7 +64829,7 @@ const baseInfo = {
   deviceid: "browser"
 };
 let _ip = "";
-config_config.baseURL = "https://smwl.mycoin.icu"; // node.js规避非授信证书的设置（开发测试环境）
+config_config.baseURL = "http://43.128.5.136:9899"; // node.js规避非授信证书的设置（开发测试环境）
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"; //   if (process.server) {
 //   config.baseURL = `http://${process.env.HOST || "localhost"}:${process.env
@@ -65401,7 +65401,7 @@ Object.keys(globalFilter).forEach(key => {
 
 /* harmony default export */ var plugins_api = ((ctx, inject) => {
   const axiosConfig = {
-    baseURL: "https://smwl.mycoin.icu"
+    baseURL: "http://43.128.5.136:9899"
   };
   Object.assign(ctx.$axios.defaults, axiosConfig);
   ctx.$api = api(ctx.$axios);

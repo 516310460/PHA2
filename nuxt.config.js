@@ -2,8 +2,8 @@ const pkg = require('./package')
 const path = require('path')
 // const whitelister = require('purgecss-whitelister')
 // 域名或ip
-const baseUrl = 'https://smwl.mycoin.icu'
-// const baseUrl = 'http://43.128.5.136:9899'
+// const baseUrl = 'https://smwl.mycoin.icu'
+const baseUrl = 'http://43.128.5.136:9899'
 const imgServerUrl = "https://buybit.oss-cn-hongkong.aliyuncs.com/";
 const webSocketUrl = "wss://www.buybit.com";
 const webSocketHttpUrl = "https://www.buybit.com";

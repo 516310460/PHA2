@@ -200,7 +200,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {"baseUrl":"https://smwl.mycoin.icu","imgServerUrl":"https://buybit.oss-cn-hongkong.aliyuncs.com/","webSocketUrl":"wss://www.buybit.com","webSocketHttpUrl":"https://www.buybit.com"}
+      env: {"baseUrl":"http://43.128.5.136:9899","imgServerUrl":"https://buybit.oss-cn-hongkong.aliyuncs.com/","webSocketUrl":"wss://www.buybit.com","webSocketHttpUrl":"https://www.buybit.com"}
     }
     // Only set once
 

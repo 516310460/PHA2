@@ -1,13 +1,13 @@
 exports.ids = [35];
 exports.modules = {
 
-/***/ 320:
+/***/ 314:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(321);
+var content = __webpack_require__(315);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -15,24 +15,24 @@ __webpack_require__(5).default("50691e8a", content, true)
 
 /***/ }),
 
-/***/ 321:
+/***/ 315:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(4);
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(13);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(322);
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(323);
-var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(324);
-var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(325);
-var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(326);
-var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(327);
-var ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(328);
-var ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(329);
-var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(330);
-var ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(331);
-var ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(332);
-var ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(333);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(316);
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(317);
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(318);
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(319);
+var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(320);
+var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(321);
+var ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(322);
+var ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(323);
+var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(324);
+var ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(325);
+var ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(326);
+var ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(327);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(function(i){return i[1]});
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
@@ -55,84 +55,84 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 322:
+/***/ 316:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/dropdown_w.8cba420.png";
 
 /***/ }),
 
-/***/ 323:
+/***/ 317:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/dropup_w.f59dc93.png";
 
 /***/ }),
 
-/***/ 324:
+/***/ 318:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/dropdown_b.df4d581.png";
 
 /***/ }),
 
-/***/ 325:
+/***/ 319:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/dropup_b.39f16f2.png";
 
 /***/ }),
 
-/***/ 326:
+/***/ 320:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/tool_d_normal.fac2446.png";
 
 /***/ }),
 
-/***/ 327:
+/***/ 321:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/tool_d_push.fd723ec.png";
 
 /***/ }),
 
-/***/ 328:
+/***/ 322:
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABC0lEQVQ4T7WTYVEDMRSEv1VAJYCDOmgdgAPAASigKGhx0CoACcUBEsDBVcFj9ibpvF6TDn/IzM0kL9l9t5usImIFvHA6niVtcikinoB1qg3AmyIiSnEslPle0n5CsAT8eZjsChgqwaEUtpIeJ39zsoyILXAPjJhK8Apcl40uSQLvgG9LPxJIWqUDZyQZLOmhemcC6/mqmlskU7A1RYT9mKultwDuLEvSEBE2+MOdp+ebBKXDzOBLhnrvfwiKhFvgJkl4b13xJRN3VXPH2Dmw6F3jEVw9mJLka/RTzg/pDNwiAX7yQ7LbM6ALbpCMGEvwZAwGUBP42QnTIoXJDQ8mcJxrumqjv8TZYdr8Ai/uwaXkPGIcAAAAAElFTkSuQmCC"
 
 /***/ }),
 
-/***/ 329:
+/***/ 323:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/tool_l_normal.dc73be3.png";
 
 /***/ }),
 
-/***/ 330:
+/***/ 324:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/tool_l_push.5af4c05.png";
 
 /***/ }),
 
-/***/ 331:
+/***/ 325:
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABKElEQVQ4T7VTwU0DMRCcrYArwby9j3QQOoAOgA5CBYQKCB0kFUAJoQMe9v/o4JD8X7SWfVo5vhMfLJ1krT3jm9kdYuY9gGeYJSJPMcaDrXnvd0T0amoTgDdiZinFXCj7cwjhbAmY+QaAfrp2AK4ATJXgRwsicowxPlpgu/feH4noHkDGVIIXEXF6sEZSwSJyIqJRpc8EIYS9uXDxJxYcY3yo3lEx56tq7pG0YJWlnojIhnp6C+AupeTGcZyYeRKRD325vd8l0EvOuUHBa4bq2f8QFAm3KaVrI+G91+I1E09V84KxGyLaLrVxBlcPWpK5jWWU7SBdgHskRPRtB0ndHnTCeq1qQlVHOWNUgm5yMADUBH4uhGlrwjRoHpRA41zTlc//GGcN0+EXyGXo9iBlz1cAAAAASUVORK5CYII="
 
 /***/ }),
 
-/***/ 332:
+/***/ 326:
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3klEQVQ4T62TPQrCQBCF3waCpZVeI5DMHMXCFFrrCZJOKwWx1Ubs1MabZAjkGnqFkJUVIysmJBK3nJ9vZt7sKHR8qmM+/gtI03RQFMWEiLZVnYlI5Lru0fO8W+n/6EBEQgAnAGsiim2IiKwARFrrkJkvlQBjFJEZgJ3WesnMi5ftmQxgTkR7G1ypQQkBYLro1yUbUK2IFsTEfVWuHaF0dALYOiilej+NYFV+b6LcQKOISZKMlVLnhjWOmPlaqUGWZcM8z6dBEGxqPlLsOM7B9/17o4htb+S/t9C2qh33AOKBYhHSYIk9AAAAAElFTkSuQmCC"
 
 /***/ }),
 
-/***/ 333:
+/***/ 327:
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3ElEQVQ4T62TPQrCQBCF3y4BSys9RmCZs1iYQms9QdJppSC22oid2niV2YEcQ48Q2EjEyIoJicQt5+ebmTc7Ch2f6piP/wKMMQOt9YSZt1WdEVGcZdkxTdNb6f/ogIgiACcAa2ZOfAgRrQDEzrlIRC6VgMJIRDMAuzzPl9baxcv2TAYwZ+a9D67UoIQAKLro1yUXoFoRPUgR91W5doTS0Qng66CU6v00glf5vYlyA40iGmPGWutzwxpHInKt1CAMw2EQBFNr7abmIyXOuYOI3BtFbHsj/72FtlX9uAer52IR8HRvCwAAAABJRU5ErkJggg=="
@@ -147,7 +147,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf
 __webpack_require__.r(__webpack_exports__);
 
 // EXTERNAL MODULE: ./components/kline/css/main.css
-var main = __webpack_require__(320);
+var main = __webpack_require__(314);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/kline/main.vue?vue&type=script&lang=js&
  // import Kline from "./js/kline.js";
