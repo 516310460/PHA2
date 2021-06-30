@@ -50589,7 +50589,7 @@ async function setContext(app, context) {
       error: context.error,
       base: app.router.options.base,
       env: {
-        "baseUrl": "http://43.128.5.136:9899",
+        "baseUrl": "https://smwl.mycoin.icu",
         "imgServerUrl": "https://buybit.oss-cn-hongkong.aliyuncs.com/",
         "webSocketUrl": "wss://www.buybit.com",
         "webSocketHttpUrl": "https://www.buybit.com"
@@ -52805,11 +52805,11 @@ const components = {
   BuycoinsHeader: () => __webpack_require__.e(/* import() | components/buycoins-header */ 2).then(__webpack_require__.bind(null, 362)).then(c => wrapFunctional(c.default || c)),
   DialogNicknameDialog: () => __webpack_require__.e(/* import() | components/dialog-nickname-dialog */ 3).then(__webpack_require__.bind(null, 363)).then(c => wrapFunctional(c.default || c)),
   DialogTipsDialog: () => __webpack_require__.e(/* import() | components/dialog-tips-dialog */ 4).then(__webpack_require__.bind(null, 364)).then(c => wrapFunctional(c.default || c)),
-  KlineMain: () => __webpack_require__.e(/* import() | components/kline-main */ 35).then(__webpack_require__.bind(null, 368)).then(c => wrapFunctional(c.default || c)),
   SelectSearchPhoneSearch: () => __webpack_require__.e(/* import() | components/select-search-phone-search */ 39).then(__webpack_require__.bind(null, 365)).then(c => wrapFunctional(c.default || c)),
   SelectSearchPopper: () => __webpack_require__.e(/* import() | components/select-search-popper */ 40).then(__webpack_require__.bind(null, 191)).then(c => wrapFunctional(c.default || c)),
   SelectSearch: () => __webpack_require__.e(/* import() | components/select-search */ 38).then(__webpack_require__.bind(null, 366)).then(c => wrapFunctional(c.default || c)),
   SelectSearchText: () => __webpack_require__.e(/* import() | components/select-search-text */ 41).then(__webpack_require__.bind(null, 367)).then(c => wrapFunctional(c.default || c)),
+  KlineMain: () => __webpack_require__.e(/* import() | components/kline-main */ 35).then(__webpack_require__.bind(null, 368)).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsDataUpdater: () => __webpack_require__.e(/* import() | components/hash-rate-datafeeds-data-updater */ 6).then(__webpack_require__.bind(null, 190)).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsDatafees: () => __webpack_require__.e(/* import() | components/hash-rate-datafeeds-datafees */ 7).then(__webpack_require__.bind(null, 230)).then(c => wrapFunctional(c.default || c)),
   HashRateDatafeedsSocket: () => __webpack_require__.e(/* import() | components/hash-rate-datafeeds-socket */ 8).then(__webpack_require__.bind(null, 229)).then(c => wrapFunctional(c.default || c)),
@@ -53065,7 +53065,7 @@ const setupProgress = axios => {
   // runtimeConfig
   const runtimeConfig = ctx.$config && ctx.$config.axios || {}; // baseURL
 
-  const baseURL =  false ? undefined : runtimeConfig.baseURL || runtimeConfig.baseUrl || process.env._AXIOS_BASE_URL_ || 'http://43.128.5.136:9899'; // Create fresh objects for all default header scopes
+  const baseURL =  false ? undefined : runtimeConfig.baseURL || runtimeConfig.baseUrl || process.env._AXIOS_BASE_URL_ || 'https://smwl.mycoin.icu'; // Create fresh objects for all default header scopes
   // Axios creates only one which is shared across SSR requests!
   // https://github.com/mzabriskie/axios/blob/master/lib/defaults.js
 
@@ -64829,7 +64829,7 @@ const baseInfo = {
   deviceid: "browser"
 };
 let _ip = "";
-config_config.baseURL = "http://43.128.5.136:9899"; // node.js规避非授信证书的设置（开发测试环境）
+config_config.baseURL = "https://smwl.mycoin.icu"; // node.js规避非授信证书的设置（开发测试环境）
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"; //   if (process.server) {
 //   config.baseURL = `http://${process.env.HOST || "localhost"}:${process.env
@@ -65401,7 +65401,7 @@ Object.keys(globalFilter).forEach(key => {
 
 /* harmony default export */ var plugins_api = ((ctx, inject) => {
   const axiosConfig = {
-    baseURL: "http://43.128.5.136:9899"
+    baseURL: "https://smwl.mycoin.icu"
   };
   Object.assign(ctx.$axios.defaults, axiosConfig);
   ctx.$api = api(ctx.$axios);
