@@ -110,7 +110,7 @@
                     <span>提币金额</span>
                   </div>
                   <div class="text-center mt-2 font-bold">
-                    <span class="fs24">{{Number(item.forzenBalance)}}</span>
+                  <span class="fs24">{{Number(item.balance)}}</span>
                     <span> {{item.coinName}}</span>
                   </div>
                 </div>
@@ -126,13 +126,13 @@
                     <span>总收益</span>
                   </div>
                   <div class="text-center mt-2 font-bold">
-                    <span class="fs24">0</span>
+                  <span class="fs24">{{Number(item.balance)}}</span>
                     <span> {{item.coinName}}</span>
                   </div>
                 </div>
               </div>
             </div>
-            <p class="fs18 py-3">{{item.coinName}}总算力：0 T</p>
+            <p class="fs18 py-3">{{item.coinName}}总算力：{{item.coinName == 'BZZ' ? UserInfo.bzz: (item.coinName == 'FIL' ? UserInfo.fil: (item.coinName == 'PHA' ? UserInfo.pha: 0))}}</p>
           </div>
         </div>
       </div>

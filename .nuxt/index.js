@@ -99,7 +99,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"币池-首个用户为核心的交易所","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"},{"hid":"description","name":"description","content":"PHA2"},{"http-equiv":"Expires","content":"0"},{"http-equiv":"Pragma","content":"no-cache"},{"http-equiv":"Cache-Control","content":"no-cache, no-store, must-revalidate"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fbuybit.ico"}],"style":[],"script":[]},
+    head: {"title":"PHA","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"},{"hid":"description","name":"description","content":"PHA2"},{"http-equiv":"Expires","content":"0"},{"http-equiv":"Pragma","content":"no-cache"},{"http-equiv":"Cache-Control","content":"no-cache, no-store, must-revalidate"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fbuybit.ico"}],"style":[],"script":[]},
 
     store,
     router,

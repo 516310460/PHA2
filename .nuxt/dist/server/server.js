@@ -65542,7 +65542,7 @@ async function createApp(ssrContext, config = {}) {
 
   const app = {
     head: {
-      "title": "币池-首个用户为核心的交易所",
+      "title": "PHA",
       "meta": [{
         "charset": "utf-8"
       }, {
